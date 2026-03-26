@@ -1,16 +1,19 @@
-# React + Vite
+# Task Manager To-Do App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+A simple web-based To-Do List application to manage daily tasks efficiently. Users can add, update, and delete tasks, with all data stored locally in the browser using local storage. Built with React, HTML, and CSS, this project demonstrates basic React hooks (`useState`) and CRUD operations.
 
-Currently, two official plugins are available:
+## Features
+- Add, complete, and delete tasks  
+- Tasks persist using browser local storage  
+- Responsive design for all devices  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
+- React (`useState`)  
+- HTML & CSS  
+- Local Storage  
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation & Setup
+1. Clone the repository:
+```bash
+git clone https://github.com/shubhshubh3011/task-manager-.git
